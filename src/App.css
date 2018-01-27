@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'NanumBarunpenR';
+  src: url('NanumBarunpenR.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BMHANNA';
+  src: url('BMHANNA_11yrs_ttf.ttf') format('truetype');
+}
+
+body {
+  font-family: 'BMHANNA';
+  min-width: 1377px;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  padding: 0.3em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+
+.App-menu1:hover {
+  background-color: dodgerblue;
+}
+.App-menu2:hover {
+  background-color: darkkhaki;
+}
+.App-menu3:hover {
+  background-color: darkorange;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.App-header {
+  margin: 0;
+  background-color: #33331a;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.App-header-nav-container {
+  display: flex;
+  width: 1200px;
+  
+}
+
+.App-header-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-menu-signin {
+  border: 1px solid  #dddddd;
+}
+
+.App-header-desc {
+  background-color: #446600;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.App-header-desc-img {
+  padding-right: 100px;
+}
+
+.App-title {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.App-signin {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.App-signin-button{
+  margin: 18px;
+  font-size: 2em;
+  border: 2px solid white;
+  padding: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.App-notice {
+  border-bottom: 1px solid #dddddd;
+  padding: 1em;
+  font-size: 18px;
+  color: #555555;
+}
+
+.App-content {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 48px;
+  width: 1377px;
+}
+
+.App-content-tab1{
+  flex: 2;
+}
+
+.App-content-tab2{
+  flex: 1;
+}
+
+.App-content-tab3{
+  flex: 1;
+}
+
+.Content-tab-name{
+  margin-bottom: 48px;
+}
+
+.App-content-divider {
+  border-left: 1px solid #dddddd;
+  height: 100;
+  width: 1px;
+}
+
+.Content-tab1-row{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+
+.Content-tab1-item-container{
+  border: 1px solid black;
+}
+
+.Content-tab1-item-row{
+  border-top: 1px solid black;
+}
+
+.Content-tab1-item-img{
+  border-top: none;
+}
+
+.App-footer {
+  height: 300px;
+  background-color: #33331a;
+}
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
